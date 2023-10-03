@@ -9,4 +9,6 @@
 #============================================================
 
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.1.11/g' package/base-files/files/bin/config_generate
+#sed -i 's/192.168.1.1/192.168.1.11/g' package/base-files/files/bin/config_generat
+git clone https://github.com/Zxilly/UA2F.git package/aquawius/UA2F
+git clone https://github.com/CHN-beta/rkp-ipid.git package/aquawius/rkp-ipid
